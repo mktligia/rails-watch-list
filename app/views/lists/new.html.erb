@@ -1,0 +1,5 @@
+<h2>Crea una nueva lista</h2>
+  <%= simple_form_for @list do |f| %>
+    <% f.input :name, placeholder: "Historia"%>
+    <% f.submit class"btn btn-light" %>
+  <% end %>
